@@ -31,7 +31,7 @@ RESOURCES += \
     #res/qdark_stylesheet/qdarkstyle/style.qrc
 
 # The following line compiles on Release but not on Debug, so this workaroung is used:
-RC_FILE = res/serial_port_plotter.rc
+# RC_FILE = res/serial_port_plotter.rc
 # Call the resource compiler
 #win32:mkver_rc.target = serial_port_plotter_res.o
 #win32:mkver_rc.commands = windres --use-temp-file -i serial_port_plotter.rc -o serial_port_plotter_res.o --include-dir=../res -DVERSION_H_INTERN $(DEFINES)
